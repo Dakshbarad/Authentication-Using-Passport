@@ -1,0 +1,16 @@
+Documentation:
+
+This is a personal project which is a nodejs app.
+
+*Idea:
+The project is supposed to allow users to insert how their day went in terms of studying, workingOut or sleeping and gives them thier average statistics based on their data.
+ 
+The web app also gives the average statistics of a person based on all the users that are using the app.
+
+It also allows users to add friends and compare their daily progress with them.
+
+*Till now:
+
+30/09/2020:
+I have added the user authentication using passport-local. So people can register and login into their account using the credentials.
+I am using mongodb as a database to store the user data.

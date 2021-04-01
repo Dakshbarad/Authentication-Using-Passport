@@ -1,0 +1,27 @@
+body
+{
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+/* Right side */
+#dateselection
+{
+    text-align: center;
+    width: fit-content;
+    margin-left: 1em;
+    background: transparent;
+    border: none;
+}
+
+.schedule-grid
+{
+    max-height: 25em;
+    overflow-y: auto;
+}
+
+.grid-button
+{
+    padding: 1em;
+    margin-top: 5px;
+}
