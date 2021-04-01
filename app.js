@@ -11,7 +11,7 @@ const express= require("express"),
 require('./config/passport')(passport);
 
 //mongo connection
-const MongoKEY= require('./config/keys').MongoURI;
+const MongoKEY= require('./config/keys').MongoURI;  //In git repository the keys.js is igonored for privacy, so set accordingly
 mongoose.connect(MongoKEY,{ useNewUrlParser: true, useUnifiedTopology: true })
     .then( () => console.log("Mongodb connected."))
     .catch(err => console.log(err));
